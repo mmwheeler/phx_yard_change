@@ -1,0 +1,22 @@
+---
+title: "Project Details"
+output: html_document
+---
+
+<br>
+
+###How are residential yards changing over time?
+
+<br>
+
+###How do the changes residents make to their yards affect yard ecological function?
+
+<br>
+
+###What will residential neighborhoods look like in the future?
+
+<br>
+
+---
+
+I am conducting a research project to understand the dynamics of residential yards based on resident preferences and management behaviors. In the summer of 2018, I will be repeating an ecological survey of residential yard vegetation originally conducted in 2008 to characterize front yard vegetation at two time points 10 years apart. I will pair this ecological survey with a social survey to understand resident preferences, changes made to their yards, and motivations for making changes.

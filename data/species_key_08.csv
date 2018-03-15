@@ -1,0 +1,364 @@
+growth_form,species_id,scientific_name,common_name
+tree,Taca,Acacia,Acacia (unknown)
+tree,TAcaCon,Acacia constricta,White-Thorn Acacia
+tree,TAcaCra,Acacia craspedocarpa,Leather-Leaf Acacia
+tree,TAcaFar,Acacia farnesiana,Sweet acacia; Desert Acacia
+tree,TAcaSal,Acacia salicina,willow acacia
+tree,TAcaSch,Acacia schaffneri,Twisted acacia
+tree,TAcaSte,Acacia stenophylla,Shoestring Acacia
+tree,TAcaVis,Acacia visco,Arca; Visco; Viscote Blanco; Viscote Negro
+tree,TAcaWil,Acacia willardiana,Palo Blanco
+shrub,SAccSel,Acca sellowiana,Pinapple Guava
+tree,Tace,Acer,Maple Tree (unknown)
+cacti_succulent,CAgaVar,Agavaceae varigated,varigated agave
+cacti_succulent,CAgaVil,Agave vilmoriniana,octopus agave
+cacti_succulent,CAga,Agave,agave (Species Unknown)
+cacti_succulent,CAgaAme,Agave americana,Century Plant
+cacti_succulent,CAgaAng,Agave angustifolia,Varigated Carribean Agave
+cacti_succulent,CAgaDes,Agave desmetiana,Smooth Agave
+cacti_succulent,CAgaGem,Agave geminiflora,Twin Flowered agave
+cacti_succulent,CAgaLec,Agave lechuguilla,Lechuguilla (shindagger)
+cacti_succulent,CAgaLop,Agave lophantha,Thorn-crested agave
+cacti_succulent,CAgaMac,Agave macroacantha,Black-spined agave
+cacti_succulent,CAgaMur,Agave murpheyi ,Murphy's agave
+cacti_succulent,CAgaOca,Agave ocahui,
+cacti_succulent,CAgaPar,Agave parryi,Parry's Agave
+cacti_succulent,CAgaSal,Agave salmiana,
+cacti_succulent,CAgaSch,Agave schidigera,Durango Delight
+cacti_succulent,CAgaStr,Agave stricta,Hedgehog agave
+cacti_succulent,CAgaVic,Agave victoriae-reginae,Queen Victoria Agave
+cacti_succulent,CAgaWeb,Agave weberii,Weber's Agave
+shrub,SAlcRos,Alcea rosea,Hollyhock
+tree,TAliAlt,Alianthus altissima,Tree of Heaven
+tree,TAlnIca,Alnus incana,Gray Alder
+cacti_succulent,CAlo,Aloe,Unknown aloe
+cacti_succulent,CAloDaw,Aloe dawei,Dawe's Aloe
+cacti_succulent,CAloDic,Aloe dichotoma,Quiver Tree
+cacti_succulent,CAloVar,Aloe variegata,Tiger Aloe
+cacti_succulent,CAloVer,Aloe vera,Medicinal Aloe
+grass,RAntSau,Anthericum saundersaie,Lilly Grass
+vine,VAntLep,Antigonon leptopus,Coral Vine
+flower_herbaceous,FAntMaj,Antirrhinum majus,Snapdragons
+tree,TAraHet,Araucaria heterophlla,Norfolk Island Pine
+cacti_succulent,Carm,Armatocereus,Armatocereus (unknown)
+cacti_succulent,CArmCar,Armatocereus cartwrightus,
+cacti_succulent,CArmLae,Armatocereus laetus,
+shrub,Sart,Artemisia,Artemisia (species unknown)
+groundcover,GArtSch,Artemisia schmidtiana,Powis Castle Artemisia
+shrub,Sasc,Ascelpias,Milk Weed
+shrub,SAspDen,Asparagus densifloruss,Asparagus Fern
+shrub,SBacSar,Baccharis sarothroides,Desert broom
+flower_herbaceous,FBaiMul,Baileya multiradiata,Desert Marigolds
+tree,TBauCan,Bauhinia candida,white orchid tree
+tree,TBauPur,Bauhinia purpurea,orchid tree
+flower_herbaceous,Fbel,Bellis,Daisy (unknown)
+tree,TBisNob,Bismarkia nobilis,Bismark Palm
+shrub,SBouGla,Bougainvillea glabra,"Bougainvillea, Paper Flower; Lesser Bougainvillea"
+shrub,SBouSpe,Bougainvillea spectabilis,torchglow bougianvillae
+tree,TBraPop,Brachychiton populneus,Bottle Tree
+tree,TBraArm,Brahea armata,Mexican Blue Fan Palm
+shrub,Sbra,Brassica,Cabbage
+tree,TBroPap,Broussonetia papyifera,Paper Mulberry
+shrub,SBudMar,Buddleia marrubifolia,Woolly Butterfly Bush
+shrub,SBuxMic,Buxus microphylla japnoica,Japanese boxwood
+shrub,Scae,Caesalpinia gillesii,Mexican Bird of Paradise (Red Flower)
+shrub,SCaeMex,Caesalpinia mexicana,Yellow Bird of Paradise (All Yellow Flower)
+shrub,SCaePul,Caesalpinia pulcherrima,Red Bird of Paradise (All Red Flower)
+shrub,SCalCal,Calliandra californica,Baja fairy duster
+shrub,SCalEri,Calliandra eriophylla,pink fairy duster
+flower_herbaceous,FCalInv,Callirhoe involucrata,Winecup flower
+shrub,SCalCit,Callistemon citrinus,little john bottle brush
+tree,TCalRig,Callistemon rigida,Bottlebrush Tree
+tree,TCalVim,Callistemon viminalis,Weeping Bottle Brush Tree
+shrub,SCamEri,Campanulaceae erinus,Blue Moon Lobelia
+vine,VCamRad,Campsis radicans,Trumpet vine
+shrub,SCanGen,Canna x generalis,Canna
+shrub,Scap,Capsicum,Pepper Plant (unknown)
+shrub,Scar,Carissa,Carissa (unknown)
+shrub,SCarMac,Carissa macrocarpa,natal plum or carissa green carpet
+shrub,SCarMac Varigated,Carissa macrocarpa - varigated,varigated carissa
+cacti_succulent,CCarGig,Carnegiea gigantea,Saguaro
+tree,TCarIll,Carya illinoinensis,Pecan
+shrub,SCasNem,Cassia nemophila,needle cassia
+shrub,SCasPhy,Cassia phyllodinea,feather cassia
+groundcover,GCerPlu,Ceratostigma plumbaginoides,
+tree,Tcer,Cercidium,Palo Verde (Species Unknown)
+tree,TCerAcu,Cercidium aculeata,Mexican Palo Verde
+tree,TCerFlo,Cercidium floridata,Blue Palo Verde
+tree,TCerHyb,Cercidium hybrid,hybrid palo verde
+tree,TCerMic,Cercidium microphyllum,Foothills Palo Verde
+tree,TCerPra,Cercidium praecox,Palo Brea
+cacti_succulent,Ccer,Cereus,Cereus (unknown)
+cacti_succulent,CCerHil,Cereus hildmannianus,Hildmann's cactus
+cacti_succulent,CCerHilTor,Cereus hildmannianus f. tortuosus,twisted cereus
+cacti_succulent,CCerPer,Cereus peruvianus,Night Blooming Cereus
+tree,TChaHum,Chamaerops humilis ,Mediterranean fan palm
+tree,Tcit,Citrus,Unknown Species of Citrus
+tree,TCitAur,Citrus aurantifolia,Lime Tree
+tree,TCitAur,Citrus aurantium,Ornamental Orange
+tree,TCitLim,Citrus limon,Lemon Tree
+tree,TCitPar,Citrus paradisi,Grapefruit Tree
+tree,TCitRet,Citrus reticulata,Tangerine Tree
+tree,TCitSin,Citrus sinensis,Orange Tree
+shrub,SConCne,Convolvulus cneorum,Bush Morning Glory
+tree,TCorboi,Cordia boissieri,Texas Olive
+shrub,SCorPar,Cordia parvifolia,Cordia
+grass,RCorSel,Cortaderia selloana,Pampas Grass
+tree,TCupAri,Cupressus arizonica,Arizona cypress
+tree,TCupSem,Cupressus sempervirens,Italian cypress
+tree,TCycRev,Cycas revoluta,Sago Palm
+cacti_succulent,CCylFul,Cylindropuntia fulgida,Jumping Cholla
+tree,TDalSis,Dalbergia sissoo,Sissoo
+groundcover,GDalGre,Dalea greggii,Gregg's Prarie Clover; Indigo Bush
+cacti_succulent,CDasWhe,Dasylirion wheeleri¾,desert spoon
+flower_herbaceous,FDelCoo,Delosperma cooperi,Ice Plant
+tree,TChiLin,Chilopsis linearis,Desert Williw
+shrub,SDicRep,Dichondra repens,Dichondra (Aquatic Nasturtium??)
+flower_herbaceous,FDieVeg,Dietes vegetata,African iris
+shrub,SDurRep,Duranta repens,Sky Flower
+flower_herbaceous,FEchPur,Echinacia purpurea,Eastern Purple Coneflower
+cacti_succulent,CEch-CAC,Echinocactus,unknown echinocactus species
+cacti_succulent,CEchGru,Echinocactus grusonii,Golden barrel
+cacti_succulent,CEchHor,Echinocactus horizontnatonius,Turk's Head Cactus
+cacti_succulent,CEch-CER,Echinocereus,unknown echinocereus species
+cacti_succulent,CEchEng,Echinocereus engelmannii,Hedgehog cactus
+cacti_succulent,CEchOxy,Echinopsis oxygona,Easter Lily Cactus
+shrub,SEncFar,Encilia farinosa,Brittlebush
+shrub,SEreMac,Eremophila maculata,Valentine Bush
+cacti_succulent,Cesc,Escobaria,Pincushion Cactus (unknown)
+tree,Teuc,Eucalyptus,Unknown Eucalyptus
+tree,TEucCit,Eucalyptus citriodora,Lemon Scented Gum
+tree,TEucEry,Eucalyptus Erythrocorys,Red Cap Gum Eucalyptus
+tree,TEucKru,Eucalyptus kruseana,Mallee
+tree,TEucMic,Eucalyptus microtheca,Coolibah
+tree,TEucPol,Eucalyptus polyanthemos,Silver Dollar Gum
+tree,TEucSpa,Eucalyptus spathulata,Swamp malee
+shrub,SEuoJap,Euonymus japonica,evergreen euonymus
+shrub,SEupBig,Euphorbia biglandulosa,Gopher plant
+shrub,SEupCyp,Euphorbia cyparissias 'Purpura',Purpura
+cacti_succulent,CEupRes,Euphorbia resinifera,officinal spurge
+shrub,SEupTir,Euphorbia tirucalli,"Pencil Cactus, Milkbush, Sticks on Fire"
+cacti_succulent,CEupTri,Euphorbia triangularis,Euphorbia
+tree,TEysOrt,Eysenhardtia orthocarpa,AZ Kidneywood
+shrub,Sfer,Fern (Unknown),Fern
+cacti_succulent,CFer,Ferocactus,Barrel cactus (unknown species)
+cacti_succulent,CFerCyl,Ferocactus cylindraceus,Compass Barrel
+cacti_succulent,CFerSta,Ferocactus stainesii,Red Barrel Cactus
+shrub,SFicEla,Ficus elastica,rubber plant
+vine,VFicPum,Ficus pumila,Ficus vine
+cacti_succulent,CFouSpl,Fouquieria splendens,Ocotillo
+tree,TFraAna,Fraxinus anamola,Single Leaf Ash
+tree,TFraGre,Fraxinus greggii,Gregg Ash
+tree,TFraLow,Fraxinus lowellii,Lowell Ash
+tree,TFraTex,Fraxinus texensis,Green Mountain Ash
+tree,TFraUhd,Fraxinus uhdei,Shamel Ash
+tree,TFraVel,Fraxinus velutina,Velvet Ash
+shrub,SGaiGra,Gaillardia grandiflora,Blanket Flower
+shrub,SGarJas,Gardenia jasminioides,Gardenia
+tree,TGle,Gleditsia,Unknown locust tree
+tree,TGleTri,Gleditsia triacanthos,Honey Locust
+shrub,SGuaAng,Guaiacum angustifolium,Soapbush
+vine,VHarVio,Hardenbergia violacea,Australian lilac; purple coral pea
+groundcover,GHedHel,Hedera helix,English Ivy
+flower_herbaceous,FHelAnn,Helianthus annuus,Sunflower
+shrub,Sher,Herbs (unknown),Herbs (unknown)
+cacti_succulent,CHesFun,Hesperaloe funifera,Giant Hesperaloe
+cacti_succulent,CHesPar,Hesperaloe parviflora,Hesperaloe
+shrub,Shib,Hibiscus,Hibiscus
+flower_herbaceous,FHymAca,Hymenoxys acaulis,Angelita Daisy
+flower_herbaceous,FIriGer,Iris x germanica,Bearded Iris
+tree,TJacMim,Jacaranda mimosifolia,Jacaranda
+shrub,SJasSam,Jasminum sambac,Arabian Jasmine
+tree,TJug,Juglans,Unknown Walnut Species
+tree,TJugMaj,Juglans major,Arizona Walnut
+shrub,Sjun,Juniperus,Unknown Juniper
+shrub,SJunChi,Juniperus chinesis x pfitzeriana,Sea Green Juniper
+shrub,SJunMon,Juniperus monosperma,One Seed Juniper
+shrub,SJunOst,Juniperus osteosperma,Utah Juniper
+shrub,SJunPin,Juniperus pinchotii,Redberry Juniper
+shrub,SJunSco,Juniperus scopulorum,Rocky Mountain Juniper
+shrub,SJusCal,Justicia californicia,Chuparosa
+shrub,SJusCan,Justicia candicans,red Mexican honeysuckle
+shrub,SJusSpi,Justicia spicigera,orange mexican honeysuckle
+shrub,SLagInd,Lagerstroemia indica,Crepe Myrtle
+groundcover,GLan,Lantana,lantana
+shrub,SLarTri,Larrea tridentata,Creosote bush
+shrub,SLavSto,Lavandula stoechas,Spanish Lace; Spanish lavender
+shrub,SLeuFru,Leucophyllum frutescens,Green Cloud/ Texas Sage
+shrub,SLeuCan,Leucophyllum candidum,silver cloud sage
+shrub,SLeuLae,Leucophyllum laevigatum,Chihuahuan sage
+shrub,SLeuLan,Leucophyllum langmaniae,Rio Bravo
+shrub,SLigJap,Ligustrum japonicum,Japanese Privet
+flower_herbaceous,Flil,Lilium,Lily (unknown)
+flower_herbaceous,FLilLan,Lilium lancifolium; L. tigrinum,Tiger Lily
+shrub,SLobMar,Lobularia  maritime,sweet alyssum
+shrub,SLycRan,Lycianthes rantonnettii (also called Solanum rantonnetii),Blue Potato Bush
+tree,Tlys,Lysiloma,Lysiloma (unknown)
+tree,TLysMic,Lysiloma microphylla,Feather bush
+vine,VMacUng,Macfadyena unguis-cacti,Cat's Claw Vine
+tree,TMagGra,Magnolia grandiflora,Southern Magnolia; Bull Bay
+shrub,SMalGla,Malpighia glalera,Margaraquita (very rare)
+tree,TMalDom,Malus domestica,Apple Tree
+cacti_succulent,Cmam,Mammillaria (unknown),Fishhook Cactus (species unknown)
+shrub,SMayPhy,Maytenus phyllanthoides,Mangle Dulce
+flower_herbaceous,FMelLeu,Melampodium leucanthum,Black-footed Daisy
+tree,TMelAze,Melia azedarach,Chinaberry
+shrub,Smen,Mentha (species unknown),Mint (species unknown)
+vine,VMerAur,Merremia aurea,Yuca Vine
+tree,TMimPun,Mimosa punica,Sensitive Plant
+flower_herbaceous,FMorIri,Moraea iridioides,"Dietes Iris, Fortnight Lily"
+tree,TMorAlb,Morus alba,Mulberry Tree / White Mulberry
+grass,RMuhRig,Muhlenbergia rigens,Deer Grass
+shrub,Smus,Musa,Banana Plant
+groundcover,GMyoPar,Myoporum parvifolium,Myoporum
+cacti_succulent,CMyrGeo,Myrtillocactus geometrizans,Blue Myrtle Cactus
+shrub,SMyrCom,Myrtus communis,common myrtle
+shrub,SMyrComBoe,Myrtus communis Boetica,Twisted Myrtle
+shrub,SNanDom,Nandina domestica,Heavenly Bamboo
+shrub,SNerOle,Nerium oleander,Oleander
+grass,RNolMic,Nolina microcarpa,Bear Grass
+flower_herbaceous,FOciBas,Ocimum basilicum,Basil
+shrub,SOciBas,Ocimum basilicum,African Basil
+flower_herbaceous,FOen,Oenothera,Evening Primrose
+tree,TOleEur,Olea europaea,European Olive Tree
+tree,TOlnTes,Olneya tesota,Desert (AZ) Ironwood
+cacti_succulent,COpu,Opuntia,Prickly pear cactus 
+cacti_succulent,COpuAca,Opuntia acanthocarpa,Buckhon Cholla
+cacti_succulent,COpuBas,Opuntia basilaris,Beavertail Prickly-pear
+cacti_succulent,COpuBig,Opuntia bigelovii,Teddy-bear Cholla
+cacti_succulent,COpuEng,Opuntia engalmanni,Engelmann's Prickly-pear
+cacti_succulent,COpuFic,Opuntia ficus-indica,Indian Fig
+cacti_succulent,COpuFul,Opuntia fulgida,Chain-fruit Cholla
+cacti_succulent,COpuMicMon,Opuntia microdass f. monstrosus,Funny Bunny Prickly Pear Cactus
+cacti_succulent,COpuStr,Opuntia stricta,Erect Pricklypear
+cacti_succulent,COpuVer,Opuntia versicolor,staghorn cholla
+cacti_succulent,COpuVioSR,Opuntia violacea var. santa-rita,Purple Prickly Pear
+groundcover,GOriHer,Origanum heracieoticum,Greek Oregano
+cacti_succulent,CPacMar,Pachycereus marginatus,Mexican Fencepost
+cacti_succulent,CPacSch,Pachycereus schottii,Senita
+cacti_succulent,CPacSchFM,pachycereus schottii f. monstrosus,Totem pole cactus
+flower_herbaceous,FPapRho,Papaveraceae Papaver rhoeas,Shirley poppy
+grass,RPenSet,Pennisetum setaceum ,Fountain Grass
+grass,RPenSetRu,Pennisetum setaceum 'Rubrum',Red Fountain Grass
+flower_herbaceous,FPenPar,Penstemon Parryi,Parry Penstemon
+flower_herbaceous,FPenSup,Penstemon superbus,Coral Penstemon
+flower_herbaceous,FPetHyb,Petunia x hybrida,Petunia
+shrub,SPhiCor,Philadelphus coronarius,Variegated Mock Orange
+tree,TPhoCan,Phoenix canariensis,pineapple palm
+tree,TPhoDac,Phoenix dactylifera,date palm
+tree,TPhoRoe,Phoenix roebelenii,pygmy date palm
+tree,Tpin,Pinus,Unknown Pine
+tree,TPinCan,Pinus canariensis,Canary Island Pine 
+tree,TPinHal,Pinus halepensis,
+tree,TPinPin,Pinus Pinea,Italian Stone Pine
+tree,TPisChi,Pistachia chinesis,Chinese Pistache
+tree,TPisLen,Pistachia lentiscus,"Evergreen Pistache, Mastic Tree"
+tree,TPitFle,Pithecolobium flexicaule,texas ebony
+shrub,SPitTob,Pittosporaceam tobria,Pittosporum-Mock Orange: looks like a Carissa but with small white flowers in the center of the star of dark green blunt leaves
+tree,TPlaWri,Platanus wrightii,Arizona Sycamore
+shrub,SPluAur,Plumbago auriculata,Plumbago
+shrub,Splu,Plumeria,Plumeria (unknown)
+tree,Tpop,Populus,Poplar; Cottonwood; Aspen (Unknown)
+tree,TPopDel,Populus deltoides,Eastern Cottonwood
+tree,TPopNig,Populus nigra,Lombardy Poplar
+cacti_succulent,CPorAfr,Portulacaria afra,Elephant's Food
+tree,Tpro,Prosopis,Mesquite (Species Unknown)
+tree,TProAlb,Prosopis alba,Argentine Mesquite
+tree,TProChi,Prosopis chilensis,Chilean mesquite
+tree,TProGla,Prosopis glandulosa,Honey Mesquite
+tree,TProVel,Prosopis velutina,Velvet Mesquite
+tree,TPruCer,Prunus cerasifera,Purple Plum
+tree,TPruPer,Prunus persica,Peach Tree
+shrub,SPunGra,Punica granatum,Pomegranate Bush
+shrub,SPyrCoc,Pyracantha coccinea,Pyracantha
+tree,TQue,Quercus,Oak (Unknown)
+tree,TQueAri,Quercus arizonica,Arizona White Oak
+tree,TQueEmo,Quercus emoryi,Emory Oak
+tree,TRhaBet,Rhamnus betulaefolia,Birchleaf Buckthorn
+shrub,SRhaInd,Rhaphiolepis indica,Indian Hawthorne
+tree,TRhuLan,Rhus lancea,African sumac
+shrub,SRhuOva,Rhus Ovata,Sugar bush
+tree,TRhuVir,Rhus virens,Smooth Sumac
+tree,TRobPse,Robina Pseudoacacia,Black Locust
+shrub,SRos,Rosa,John F Kennedy / Species Unknown
+shrub,SRosBan,Rosa banksiae,Lady Banks Rose
+shrub,SRosOff,Rosmarinus officinalis,Rosemary
+shrub,SRuePen,Ruella peninsularis,Ruellia (Baja Ruellia - shrub)
+shrub,SRueBri,Ruellia brittoniana,katie Ruellia
+shrub,SRusEqu,Russelia equisetfiformis,Firecracker plant
+shrub,Ssal,Salvia,Unknown Salvia Species
+shrub,SSalCle,Salvia clevelandii,Chapparral sage
+shrub,SSalGre,Salvia greggii,white and red sage
+shrub,SSalLeu,Salvia leucantha ,purple mexican brush sage
+tree,Tsam,Sambucus,Elderberry Tree
+shrub,SSalTri,Sansevieria trifasciata,Mother-In-Law's Tongue
+tree,TSapDru,Sapindus drummondii,Western Soapberry
+flower_herbaceous,FScrBac,Scrophulariaceae baccharifolius,Red Penstemon
+flower_herbaceous,FSenDou,Senecio douglasii,Sandwash Groundsel
+shrub,SSenWis,Senna wislizeni,Shrubby senna
+flower_herbaceous,FSetPal,Setcreasea pallida,Moses in a Boat
+shrub,SSimChi,Simmondsia chinesis,Jojoba
+vine,VSolLax,Solanum laxum,Potato Vine
+shrub,SSolLyc,Solanum lycopersicum,Tomato Plant
+shrub,SSopSec,Sophora secundiflora,Texas Mountain Laurel
+flower_herbaceous,FSphAmb,Sphaeralcea ambigua,Globe Mallow
+cacti_succulent,CSteThu,Stenocereus thurberi,Organ Pipe Cactus
+flower_herbaceous,FStrReg,Strelitzia reginae,Bird of Paradise
+shrub,SStrReg,Strelitzia reginae,Tropical Bird-of-Paradise
+tree,TSyaRom,Syagrus romanzoffiana,Queen Palm
+shrub,Ssyr,Syringa,Lilac (unknown)
+flower_herbaceous,FTeaPal,Teagetes palmeri,Mt. Lemmon marigold
+shrub,STecCap,Tecoma capensis,Cape Honeysuckle
+shrub,STecHyb,Tecoma Hybrid,Orange Jubilee
+shrub,STecSta,Tecoma stans,"Trumpet bush, Yellow bells"
+shrub,STecStaJub,Tecoma stans Jubilee,Orange Bells
+cacti_succulent,CTepArt,Tephrocactus articulatus ,pine cone cactus
+shrub,STeuFru,Teurcrium fruticans,Bush Germander
+shrub,SThePer,Thevetia peruviana,Yellow Oleander
+tree,TThuPli,Thuja plicata,Western Red Ceder
+shrub,SThyVul,Thymus vulgaris,Orange Basil Thyme
+shrub,STraJas,Trachelospermum jasminoides,Star Jasmine
+tree,TTraFor,Trachycarpus fortunei,Windmill palm
+cacti_succulent,CTriHua,Trichocereus huascha,Argentine hedgehog
+cacti_succulent,CTriTer,Trichocereus tercheckii,Argentine saguaro
+groundcover,GTroMaj,Tropaeolum majus,Nasturtium
+tree,TUlmPar,Ulmus parvifolia,Chinese elm
+unknown,UnkCac,Unknown Cactus,Unknown Cactus
+unknown,UnkColCac,Unknown Columnar Cacti,Unknown Columnar Cacti
+unknown,UnkDeaShr,Unknown Dead Shrub,Unknown Dead Shrub
+unknown,UnkDeaTre,Unknown Dead Tree,Unknown Dead Tree
+unknown,UnkFlo,Unknown Flower,Unknown Flower
+tree,TFra,Unknown Fraxinus,Ash Tree - Species Unknown
+unknown,UnkGra,Unknown Grass,Unknown Grass
+unknown,UnkGro,Unknown Groundcover,Unknown Groundcover
+unknown,UnkIvy,Unknown Ivy,Unknown Ivy
+unknown,UnkShu,Unknown Shrub,Unknown Shrub
+unknown,UnkTre,Unknown Tree,Unknown Tree
+unknown,UnkVine,Unknown vine,Unknown Vine
+shrub,Sver,Verbena,Verbena
+shrub,SVerPulGra,Verbena pulchella gracilior,Moss verbena
+vine,VVigCar,Vigna caracalla or Phaseolus caracalla,Snail Vine
+flower_herbaceous,Fvin,Vinca (minor or major),
+tree,TVitAgn,Vitex agnus-castus,Chaste Tree
+vine,VVitVin,Vitis vinifera,Grape Vine
+tree,TWasRob,Washingtonia robusta,"Washington, California, or Mexican fan palm"
+vine,VWedTri,Wedelia trilobata,Yellow Dot
+cacti_succulent,Cyuc,Yucca,Yucca (unknown)
+cacti_succulent,CYucAlo,Yucca aloifolia,Spanish Bayonet
+cacti_succulent,CYucBre,Yucca brevifolia,Joshua Tree
+cacti_succulent,CYucEla,Yucca elata,Soaptree Yucca
+cacti_succulent,CYucEle,Yucca elephantipes,Spineless Yucca
+cacti_succulent,CYucFax,Yucca faxon,Faxon Yucca
+cacti_succulent,CYucGlo,Yucca gloriosa,Spanish Dagger Yucca
+cacti_succulent,CYucPal,Yucca pallida,Pale-leaf Yucca
+cacti_succulent,CYucRec,Yucca recurvifolia,Pendulous Yucca
+cacti_succulent,CYucRig,Yucca rigida,Blue Yucca
+cacti_succulent,CYucSch,Yucca schoottii,Schott's Yucca
+cacti_succulent,CYucWip,Yucca whipplei,Chapparral Yucca
+flower_herbaceous,FZanAet,Zantedeschia aethrioica,Common Calla Lily
+shrub,SZauAri,Zauschneria arizonica,Hummingbird Trumpet
+flower_herbaceous,Fzin,Zinnia,Zinnia
+flower_herbaceous,FIri,,Iris
+flower_herbaceous,Fvar,,Various Flowers
+tree,TFic,,"ficus tree, shrub"
+grass,RTufGrs,,Turf Grass

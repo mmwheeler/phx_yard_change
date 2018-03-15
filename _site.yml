@@ -1,0 +1,17 @@
+name: megans-website
+navbar:
+  title: Home
+  left:
+  - text: Project Details
+    href: project.html
+  - text: 2008 Results
+    href: 08_results.html
+  - text: About Me
+    href: about.html
+output_dir: '.'
+output:
+  html_document:
+    theme: sandstone
+    lib_dir: site_libs
+    self_contained: no
+

@@ -1,0 +1,151 @@
+---
+title: "Some Observations From 2008"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(vegan)
+library(ggplot2)
+```
+
+
+```{r read_data, message=FALSE}
+sp_cover08 <- read_csv("data/species_cover_08.csv")
+sp_key08 <- read_csv("data/species_key_08.csv")
+sp_number08 <- read_csv("data/species_number_08.csv")
+main_survey08 <- read_csv("data/main_survey_08.csv")
+house_ids <- read_csv("data/HouseIDs.csv")
+
+main_survey08_2 <- main_survey08 %>%
+  merge(house_ids, by = "HouseID_EC") %>%
+  dplyr::select(-date_entered:-yardquality_notes, -lawngrasscolor_percent_verygreen:-fence_continuity, -drip_irrigation:-animals_in_neighborhood)
+
+main_survey08_2$lawn_present <- as.factor(main_survey08_2$lawn_present)
+```
+
+426 yards in 4 neighborhoods around Phoenix were originally surveyed in 2008 to determine the plant species present. 
+
+Out of our surveyed yards, about half had lawns and half did not. 
+
+```{r diversity}
+species_number_2 <- sp_number08 %>% 
+  replace(is.na(.), 0)
+
+sn_sites <- species_number_2$HouseID_EC
+sn_matrix <- select(species_number_2, -HouseID_EC)
+
+sn_matrix2 <- as.data.frame(lapply(sn_matrix, as.numeric))
+
+pres_matrix <- sn_matrix2
+pres_matrix[pres_matrix > 0] <- 1
+
+sr <- specnumber(species_number_2)
+div_df <- tibble(sn_sites, sr)
+div_df2 <- div_df %>%
+  merge(main_survey08_2, by.x = "sn_sites", by.y = "HouseID_EC") %>%
+  select(HouseID_MW, HouseID_EC = sn_sites, neighborhood_name, sr, lawn_present, yard_type_front, front_yard_area_m2) %>%
+  mutate(sr_by_area = sr/front_yard_area_m2)
+div_summary <- div_df2 %>%
+  group_by(neighborhood_name, lawn_present, yard_type_front) %>%
+  summarise(mean_sr = mean(sr), mean_sr_by_area = mean(sr_by_area), N = length(sr))
+```
+
+Front yards had between `r min(div_df2$sr)` and `r max(div_df2$sr)` plant species (not including lawn grasses or weeds).
+
+```{r fig_1}
+ggplot(div_df2, aes(x = front_yard_area_m2, y = sr)) +
+  geom_point() +
+  theme_bw() +
+  ylab("Number of Plant Species in Front Yard") +
+  xlab("Front Yard Area (square meters)")
+```
+
+
+```{r sp_frequency}
+sp_freq <- as.data.frame(colSums(sn_matrix2))
+colnames(sp_freq) <- "number_individuals"
+sp_freq$species <- rownames(sp_freq)
+
+sp_freq_pres <- as.data.frame(colSums(pres_matrix))
+colnames(sp_freq_pres) <- "number_occurrances"
+sp_freq_pres$species <- rownames(sp_freq_pres)
+
+top_freq <- sp_freq %>%
+  filter(number_individuals > 200) %>%
+  merge(sp_key08, by.x = "species", by.y = "species_id", all.x = TRUE)
+
+top_pres <- sp_freq_pres %>%
+  filter(number_occurrances > 100) %>%
+  merge(sp_key08, by.x = "species", by.y = "species_id", all.x = TRUE)
+```
+
+----
+
+Four species were observed in more than 100 yards:
+
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+</style>
+ 
+
+<div class="col2">
+
+*Lantana* - in `r top_pres$number_occurrances[top_pres$species == "GLan"]` yards
+<img src="images/lantana.jpg" width="350px">
+
+*Nerium oleander* (Oleander) - in `r top_pres$number_occurrances[top_pres$species == "SNerOle"]` yards
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerium_oleander_flowers_leaves.jpg/1920px-Nerium_oleander_flowers_leaves.jpg" width="350px">
+
+*Bougainvillea* - in `r top_pres$number_occurrances[top_pres$species == "SBouGla"]` yards
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bougainvillea_spectabilis_%285%29.JPG/1600px-Bougainvillea_spectabilis_%285%29.JPG" width="350px">
+<br>
+<br>
+<br>
+<br>
+*Leucophullum frutescens* (Texas sage) - in `r top_pres$number_occurrances[top_pres$species == "SLeuFru"]` yards
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Texas_Sage.jpg/1920px-Texas_Sage.jpg" width="350px">
+
+</div>
+
+<br>
+
+----
+
+Other common species included:
+
+*Hesperaloe parviflora* (Red yucca)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Hesperaloe_%28Agavaceae%29_Hesperaloe_parviflora_Kulturpflanze_in_Arizona_fh.jpg" width="350px">
+
+<br>
+*Carissa macrocarpa* (Natal plum)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Starr_010820-0009_Carissa_macrocarpa.jpg" width="350px">
+
+<br>
+*Myrtus communis* (Common myrtle)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Starr_080304-3229_Myrtus_communis.jpg" width="350px">
+
+<br>
+*Rosa* (Rose)
+
+<img src="images/rose.jpg" width="350px">
+
+<br>
+*Ruellia simplex* (Mexican petunia)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Ruellia_simplex_%28potret_dari_dekat%29.jpg" width="350px">
+
+<br>
+*Washingtonia* (Fan palms)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Washingtonia_robusta.jpg" width="350px">
