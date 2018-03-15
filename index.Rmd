@@ -1,17 +1,28 @@
 ---
 title: "Dynamic Ecology in Phoenix Residential Yards"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
+
+<br>
+<br>
 
 <img src="images/grevellia.JPG" width="200px">
 <img src="images/desert_flower1.JPG" width="200px">
 <img src="images/desert_flower2.jpg" width="200px">
 <img src="images/sweetpeashrub.JPG" width="200px">
 
+<br>
+<br>
+
 ## How are plant communities in Phoenix residential yards changing and developing over time?
+
+<br>
 
 As part of my dissertation work, I am investigating how resident preferences are related to changes in their yard plant communities over the past ten years. With the assistance of many Phoenix residents, I'm conducting a social survey about changes made in yards and collecting data on actual yard plant community composition in 2008 and 2018. Stay tuned for updates and results!
 
+<br>
 
 <center> *Megan Wheeler - [Hall Lab](https://halllab.asu.edu/) - [ASU School of Life Sciences](https://sols.asu.edu/)* </center>
 

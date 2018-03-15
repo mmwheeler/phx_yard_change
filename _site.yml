@@ -1,6 +1,7 @@
 name: megans-website
 navbar:
   title: Home
+  type: inverse
   left:
   - text: Project Details
     href: project.html
@@ -11,7 +12,7 @@ navbar:
 output_dir: '.'
 output:
   html_document:
-    theme: sandstone
+    theme: flatly
     lib_dir: site_libs
     self_contained: no
 
