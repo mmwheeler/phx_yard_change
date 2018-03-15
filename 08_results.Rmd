@@ -85,7 +85,7 @@ top_pres <- sp_freq_pres %>%
 
 ----
 
-Four species were observed in more than 100 yards:
+####Four species were observed in more than 100 yards:
 
 <style>
   .col2 {
@@ -102,10 +102,10 @@ Four species were observed in more than 100 yards:
 <img src="images/lantana.jpg" width="350px">
 
 *Nerium oleander* (Oleander) - in `r top_pres$number_occurrances[top_pres$species == "SNerOle"]` yards
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerium_oleander_flowers_leaves.jpg/1920px-Nerium_oleander_flowers_leaves.jpg" width="350px">
+<img src="images/oleander.jpg" width="350px">
 
 *Bougainvillea* - in `r top_pres$number_occurrances[top_pres$species == "SBouGla"]` yards
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bougainvillea_spectabilis_%285%29.JPG/1600px-Bougainvillea_spectabilis_%285%29.JPG" width="350px">
+<img src="images/bougainvillea.jpg" width="350px">
 <br>
 <br>
 <br>
@@ -119,11 +119,13 @@ Four species were observed in more than 100 yards:
 
 ----
 
-Other common species included:
+####Other common species included:
+
+<div class="col2">
 
 *Hesperaloe parviflora* (Red yucca)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Hesperaloe_%28Agavaceae%29_Hesperaloe_parviflora_Kulturpflanze_in_Arizona_fh.jpg" width="350px">
+<img src="images/hesperaloe.jpg" width="350px">
 
 <br>
 *Carissa macrocarpa* (Natal plum)
@@ -143,9 +145,11 @@ Other common species included:
 <br>
 *Ruellia simplex* (Mexican petunia)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Ruellia_simplex_%28potret_dari_dekat%29.jpg" width="350px">
+<img src="images/ruellia.jpg" width="350px">
 
 <br>
 *Washingtonia* (Fan palms)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Washingtonia_robusta.jpg" width="350px">
+
+</div>

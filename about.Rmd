@@ -12,11 +12,11 @@ Hello! My name is Megan Wheeler and I am a third year PhD student at Arizona Sta
 
 <img src="images/me_gc.jpg" width="350px">
 
-I am very interested in how the decisions people make affect ecological outcomes, and for my dissertation work am focusing on how urban and urban-influenced plant communities change over time. I find urban ecosystems especially interesting because they are where most people now live and work, they have disproportionately large impacts on Earth's ecology and biogeochemistry, and they are ideal places to understand how people interact with and manage ecosystems.
+I am interested in how the decisions people make affect ecological outcomes, and for my dissertation work I am focusing on how urban and urban-influenced plant communities change over time. I find urban ecosystems especially interesting because they are where most people now live and work, they have disproportionately large impacts on Earth's ecology and biogeochemistry, and they are ideal places to understand how people interact with and manage ecosystems.
 
 <img src="images/phx_aerial.jpg" width="450px">
 
-Most of the time, I do work with existing datasets, which are often larger or cover longer time periods than data I could collect myself. Some of my current projects use data from the [Central Arizona Long Term Ecological Research project](https://sustainability.asu.edu/caplter/), an NSF-funded project focused on collecting long term ecological data in the Phoenix metropolitan area. While most of my work is done in front of a computer, I do get out into the desert once in a while! 
+Most of the time, I work with existing datasets, which are often larger or cover longer time periods than what I could collect myself. Some of my current projects use data from the [Central Arizona Long Term Ecological Research project](https://sustainability.asu.edu/caplter/), an NSF-funded project focused on understanding long term ecological trends in the Phoenix metropolitan area. While most of my work is done in front of a computer, I do get out into the desert once in a while! 
 
 <img src="images/me_sme_cndep.jpg" width="350px">
 <img src="images/me_cholla_dbh.JPG" width="350px">
