@@ -1,0 +1,39 @@
+---
+title: "Updates on 2018 Data Collection"
+output: html_document
+---
+
+<br>
+
+### May 2018
+
+<br>
+
+We are getting started with data collection for the summer! The resident questionnaire is headed to the printer shortly, and we have begun visiting the sample neighborhoods to record yard plant species composition. 
+
+<img src="images/me_postcard.jpg" width="350px">
+
+<br>
+
+So far, there has been more change in yard plant communities than I expected, which is exciting to see!
+
+I've had to brush up on my palm tree identification, so spent some time at the local Home Depot to see what was for sale. It's not too difficult to tell Pygmy Date Palm (*Phoenix roebelenii*) and Sago Palm (*Cycus revoluta*) apart...
+
+<figure>
+  <img src="images/pygmydate.jpg" width="350px"> <img src="images/sago.jpg" width="350px">
+  <figcaption>------------ Pygmy Date Palm (*Phoenix roebelenii*) ------------------------------------ Sago Palm (*Cycus revoluta*) ------------</figcaption>
+</figure>
+
+<br>
+
+But it turns out there are some fan palms that look pretty similar, including a commonly cultivated hybrid of *Washingtonia robusta* and *Washingtonia filiforma*, called *Washingtonia filibusta*. Meanwhile, European fan palm (*Chamaerops humilis*) looks similar, but is in an entirely different genus and tends to grow in clumps rather than individually.
+
+<figure>
+  <img src="images/washingtonia_hybrid.jpg" width="350px"> <img src="images/chamaerops.jpg" width="350px">
+  <figcaption>------------------------ *Washingtonia filibusta* ------------------------------------------------------ *Chamaerops humilis* ------------------------</figcaption>
+</figure>
+
+<br>
+
+The rest of my summer team will be joining me soon, and we'll continue sampling yard vegetation. I'm sure there will be more plant identification questions soon to come!
+
