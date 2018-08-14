@@ -5,6 +5,49 @@ output: html_document
 
 <br>
 
+### August 2018
+
+<br>
+
+The summer has flown by! We finished all of our sampling of front yard plants on July 31, and I'm now settling down to try and identify a few unknown species and get the dataset all neat and clean.
+
+Many thanks to all of our wonderful survey respondents! We got back 101 surveys in total, and will be using these responses in the coming months to try and understand the patterns we see in the plant survey data.
+
+I spent the last week at the 2018 annual meeting of the Ecological Society of America, where I presented some of the first results from this project. Overall what we are seeing so far is lots of change!
+
+- Only 16% of responents said they had not made any changes to their front yard.
+- 19% of respondents said they had completely redone their front yard.
+- 69% of respondents said they had planted new trees in their yard.
+
+We can see these changes in the plant community as well. While some yards have most of the same species now as they did in 2008, quite a few have less than half of the same species. There also appears to be a trend towards planting more palm trees and taking out pine trees, possibly due to increased presence of disease and illness in pines in the area. However, the plants that were most common in 2008 (Bougainvillea, Lantana, Oleander, Texas sage) are still the most common overall.
+
+Stay tuned for more results! I'm hoping to add some more things in here in the next few weeks as I dig in to all of these data! Some things still to do though - I'm still puzzling over some unknown cacti. Do you know the names of these species?
+
+<figure>
+  <img src="images/unk_bumpy_cactus.jpg" width="350px">
+  <figcaption>This is a really cool bumpy one! But I don't know what it is.</figcaption>
+</figure>
+
+<br>
+
+<figure>
+  <img src="images/unk_cactus2.jpg" width="350px">
+  <figcaption>This little guy is pretty distinctive. It could be a Euphorbia, and not a cactus at all.</figcaption>
+</figure>
+
+<br>
+
+<figure>
+  <img src="images/unk_succulent.jpg" width="350px">
+  <figcaption>I've never seen a succulent like this one before. It's habit was almost grasslike, but the leaves were thick and succulent!</figcaption>
+</figure>
+
+<br>
+
+Conclusion: people have a lot of really interesting plants in their yards!
+
+<br>
+
 ### June 2018
 
 <br>
