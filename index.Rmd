@@ -20,7 +20,7 @@ editor_options:
 
 <br>
 
-As part of my dissertation work, I am investigating how resident preferences are related to changes in their yard plant communities over the past ten years. With the assistance of many Phoenix residents, I'm conducting a social survey about changes made in yards and collecting data on actual yard plant community composition in 2008 and 2018. Stay tuned for updates and results!
+As part of my dissertation work, I am investigating how resident preferences are related to changes in their yard plant communities over the past ten years. With the assistance of many Phoenix residents, I have conducted a social survey about changes made in yards and collected data on actual yard plant community composition in 2008 and 2018. By comparing these datasets, I aim to better understand how residential yards change over time in response to resident motivations and preferences.
 
 <br>
 

@@ -5,10 +5,8 @@ navbar:
   left:
   - text: Project Details
     href: project.html
-  - text: 2008 Results
-    href: 08_results.html
-  - text: 2018 Progress
-    href: 18_update.html
+  - text: Findings
+    href: findings.html
   - text: About Me
     href: about.html
 output_dir: '.'

@@ -1,5 +1,5 @@
 ---
-title: "Project Details"
+title: "Residential Yard Change"
 output: html_document
 ---
 
@@ -21,20 +21,30 @@ output: html_document
 
 ## Overview
 
-Residential yards are managed by individuals, who make decisions about what they want in their yards based on a range of factors including their own personal preferences, what they can afford or have time to do or take care of, and whether their neighbors or homeowners' association will approve. The decisions people make in their yards have important outcomes for how yards and neighborhoods function as an ecosystem. Can the neighborhood support native birds and insects? Is it a good source of native plant seeds? Are there many flowering or fruiting plants providing food? What about fertilizers and pesticides that might run off into the storm drains? Some of these characteristics have been linked to particular traits of people or neighborhoods: higher income neighborhoods tend to have more woody plant diversity, older and newer neighborhoods often vary in plant composition, and yards in the same neighborhood often look more similar to one another than to yards in different neighborhoods, for example. But all of these are single snapshots in time - how do characteristics of people and neighborhoods affect the way yards change and develop over time?
+Residential yards are managed by individuals, who make decisions about what they want in their yards based on a range of factors including their own personal preferences, what they can afford or have time to do or take care of, and what their neighbors or homeowners' association will approve of. The decisions people make in their yards have important outcomes for how yards and neighborhoods function as ecosystems. Can the neighborhood support native birds and insects? Is it a good source of native plant seeds? Are there many flowering or fruiting plants providing food? What about fertilizers and pesticides that might run off into the storm drains? Some of these characteristics have been linked to particular traits of people or neighborhoods: higher income neighborhoods tend to have more woody plant diversity, older and newer neighborhoods often vary in plant composition, and yards in the same neighborhood often look more similar to one another than to yards in different neighborhoods, for example. But all of these are single snapshots in time - how do characteristics of people and neighborhoods affect the way yards change and develop over time?
 
-I am conducting a research project to understand the dynamics of residential yards based on resident preferences and management behaviors. In the summer of 2018, I will be repeating an ecological survey of residential yard vegetation originally conducted in 2008 to characterize front yard vegetation at two time points 10 years apart. For this survey, I will visit about 425 yards in four neighborhoods in the Phoenix metropolitan area. I will also send a social survey to each visited household to understand that household's yard preferences, changes they have made to their yards, and why they have made changes.
+I am conducting a research project to understand the dynamics of residential yards based on resident preferences and management behaviors. In the summer of 2018, I repeated an ecological survey of residential yard vegetation originally conducted in 2008 to characterize front yard vegetation at two time points 10 years apart. For this survey, I visited about 415 yards in four neighborhoods in the city of Phoenix, Arizona. I also mailed a social survey to each visited household to learn about that household's yard preferences, changes they have made to their yard, and why they have made changes.
 
 ---
 
 ## Sidewalk surveys of yard vegetation
 
-For this project, I'll be focusing on the plants in front yards around Phoenix. I'm using front yards because they are easily accessible - I can stand on the public front sidewalk and see what's growing without having to disturb the resident. For each yard, I will make a list of all of the species I can identify, and then I'll estimate how much of the yard each species covers and count how many individuals of each species are present. I'll also record information about other features in the yard, like the presence of a lawn, bird feeders, or signs of irrigation.
+For this project, I have focused on plants in front yards in the city of Phoenix. I'm using front yards because they are easily accessible - I can stand on the public front sidewalk and see what's growing without having to disturb the resident. For each yard, I made a list of all of the species I could identify (trees, shrubs, succulents, vines, and large herbaceous species, but not lawn grasses or weeds), and then estimated how many individuals of each species were present. I also recorded information about other features in the yard that may be ecologically important, like the presence of a lawn, bird feeders, or signs of irrigation.
 
-Another student in the Hall Lab completed the same set of sidewalk surveys in the summer of 2008, and I will be following her methodology to get a similar dataset in the summer of 2018. One update I've made to the protocol is that I will be recording all of my data using a data collection app on my cell phone. Using this app rather than writing down my observations on paper will let me do things like spell check all of my species names and will save me tons of time later on when I don't have to transcribe all of my data from paper data sheets to a spreadsheet.
+Another student in the Hall Lab completed the same set of sidewalk surveys in the summer of 2008, and I followed her methodology to get a similar dataset for the summer of 2018. One update I made to the protocol is that I recorded all of my data using a data collection app on my cell phone. Using this app rather than writing down my observations on paper allowed me do things like spell check all of my species names and has saved me tons of time later on by removing the step of translating hand-written datasheets into a digital spreadsheet format to use for analyses. As I carried out this work, I was assisted by a team of ASU undergraduate researchers, who helped me record information about each site we visited and learned about urban ecology and plant identification along the way.
+
+<center>
+  <img src="images/dena_field.jpg" width="350px">
+  <figcaption>One of my student assistants, Dena, working on some plant IDs.</figcaption>
+</center>
 
 ---
 
 ## Social surveys
 
-At the same time I am out doing my sidewalk surveys, I will also mail out a questionnaire to the residents whose yards I'm surveying. Residents will be asked questions about the changes they've made to their yard since moving in, why they've made these changes, and what changes they would like to make in the future. Responses to these questions will be associated with the respondants' yard vegetation to see if changes in vegetation can be explained by common types of motivations and if yards better resemble what people want in 2018 than they did in 2008.
+As I began my vegetation surveys, I also mailed information to each of the residents whose yards I was surveying to alert them to my work and ask for their participation in the form of a written survey. Each household was asked questions about the changes they had made to their yard since moving in, why they had made these changes, and what changes they would like to make in the future. Over 100 households responded to my survey, allowing me to make connections between yard vegetation, yard change, and household priorities and motivations. 
+
+<center>
+  <img src="images/survey_cover.jpg" width="350px">
+  <figcaption>The cover of the survey I mailed to each resident in my sample.</figcaption>
+</center>

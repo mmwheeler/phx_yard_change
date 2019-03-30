@@ -11,7 +11,7 @@
 
 
 
-<title>Project Details</title>
+<title>Residential Yard Change</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -90,8 +90,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +113,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -127,6 +132,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -181,10 +282,7 @@ $(document).ready(function () {
   <a href="project.html">Project Details</a>
 </li>
 <li>
-  <a href="08_results.html">2008 Results</a>
-</li>
-<li>
-  <a href="18_update.html">2018 Progress</a>
+  <a href="findings.html">Findings</a>
 </li>
 <li>
   <a href="about.html">About Me</a>
@@ -201,7 +299,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Project Details</h1>
+<h1 class="title toc-ignore">Residential Yard Change</h1>
 
 </div>
 
@@ -222,19 +320,31 @@ $(document).ready(function () {
 </div>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p>Residential yards are managed by individuals, who make decisions about what they want in their yards based on a range of factors including their own personal preferences, what they can afford or have time to do or take care of, and whether their neighbors or homeowners’ association will approve. The decisions people make in their yards have important outcomes for how yards and neighborhoods function as an ecosystem. Can the neighborhood support native birds and insects? Is it a good source of native plant seeds? Are there many flowering or fruiting plants providing food? What about fertilizers and pesticides that might run off into the storm drains? Some of these characteristics have been linked to particular traits of people or neighborhoods: higher income neighborhoods tend to have more woody plant diversity, older and newer neighborhoods often vary in plant composition, and yards in the same neighborhood often look more similar to one another than to yards in different neighborhoods, for example. But all of these are single snapshots in time - how do characteristics of people and neighborhoods affect the way yards change and develop over time?</p>
-<p>I am conducting a research project to understand the dynamics of residential yards based on resident preferences and management behaviors. In the summer of 2018, I will be repeating an ecological survey of residential yard vegetation originally conducted in 2008 to characterize front yard vegetation at two time points 10 years apart. For this survey, I will visit about 425 yards in four neighborhoods in the Phoenix metropolitan area. I will also send a social survey to each visited household to understand that household’s yard preferences, changes they have made to their yards, and why they have made changes.</p>
+<p>Residential yards are managed by individuals, who make decisions about what they want in their yards based on a range of factors including their own personal preferences, what they can afford or have time to do or take care of, and what their neighbors or homeowners’ association will approve of. The decisions people make in their yards have important outcomes for how yards and neighborhoods function as ecosystems. Can the neighborhood support native birds and insects? Is it a good source of native plant seeds? Are there many flowering or fruiting plants providing food? What about fertilizers and pesticides that might run off into the storm drains? Some of these characteristics have been linked to particular traits of people or neighborhoods: higher income neighborhoods tend to have more woody plant diversity, older and newer neighborhoods often vary in plant composition, and yards in the same neighborhood often look more similar to one another than to yards in different neighborhoods, for example. But all of these are single snapshots in time - how do characteristics of people and neighborhoods affect the way yards change and develop over time?</p>
+<p>I am conducting a research project to understand the dynamics of residential yards based on resident preferences and management behaviors. In the summer of 2018, I repeated an ecological survey of residential yard vegetation originally conducted in 2008 to characterize front yard vegetation at two time points 10 years apart. For this survey, I visited about 415 yards in four neighborhoods in the city of Phoenix, Arizona. I also mailed a social survey to each visited household to learn about that household’s yard preferences, changes they have made to their yard, and why they have made changes.</p>
 <hr />
 </div>
 <div id="sidewalk-surveys-of-yard-vegetation" class="section level2">
 <h2>Sidewalk surveys of yard vegetation</h2>
-<p>For this project, I’ll be focusing on the plants in front yards around Phoenix. I’m using front yards because they are easily accessible - I can stand on the public front sidewalk and see what’s growing without having to disturb the resident. For each yard, I will make a list of all of the species I can identify, and then I’ll estimate how much of the yard each species covers and count how many individuals of each species are present. I’ll also record information about other features in the yard, like the presence of a lawn, bird feeders, or signs of irrigation.</p>
-<p>Another student in the Hall Lab completed the same set of sidewalk surveys in the summer of 2008, and I will be following her methodology to get a similar dataset in the summer of 2018. One update I’ve made to the protocol is that I will be recording all of my data using a data collection app on my cell phone. Using this app rather than writing down my observations on paper will let me do things like spell check all of my species names and will save me tons of time later on when I don’t have to transcribe all of my data from paper data sheets to a spreadsheet.</p>
+<p>For this project, I have focused on plants in front yards in the city of Phoenix. I’m using front yards because they are easily accessible - I can stand on the public front sidewalk and see what’s growing without having to disturb the resident. For each yard, I made a list of all of the species I could identify (trees, shrubs, succulents, vines, and large herbaceous species, but not lawn grasses or weeds), and then estimated how many individuals of each species were present. I also recorded information about other features in the yard that may be ecologically important, like the presence of a lawn, bird feeders, or signs of irrigation.</p>
+<p>Another student in the Hall Lab completed the same set of sidewalk surveys in the summer of 2008, and I followed her methodology to get a similar dataset for the summer of 2018. One update I made to the protocol is that I recorded all of my data using a data collection app on my cell phone. Using this app rather than writing down my observations on paper allowed me do things like spell check all of my species names and has saved me tons of time later on by removing the step of translating hand-written datasheets into a digital spreadsheet format to use for analyses. As I carried out this work, I was assisted by a team of ASU undergraduate researchers, who helped me record information about each site we visited and learned about urban ecology and plant identification along the way.</p>
+<center>
+<img src="images/dena_field.jpg" width="350px">
+<figcaption>
+One of my student assistants, Dena, working on some plant IDs.
+</figcaption>
+</center>
 <hr />
 </div>
 <div id="social-surveys" class="section level2">
 <h2>Social surveys</h2>
-<p>At the same time I am out doing my sidewalk surveys, I will also mail out a questionnaire to the residents whose yards I’m surveying. Residents will be asked questions about the changes they’ve made to their yard since moving in, why they’ve made these changes, and what changes they would like to make in the future. Responses to these questions will be associated with the respondants’ yard vegetation to see if changes in vegetation can be explained by common types of motivations and if yards better resemble what people want in 2018 than they did in 2008.</p>
+<p>As I began my vegetation surveys, I also mailed information to each of the residents whose yards I was surveying to alert them to my work and ask for their participation in the form of a written survey. Each household was asked questions about the changes they had made to their yard since moving in, why they had made these changes, and what changes they would like to make in the future. Over 100 households responded to my survey, allowing me to make connections between yard vegetation, yard change, and household priorities and motivations.</p>
+<center>
+<img src="images/survey_cover.jpg" width="350px">
+<figcaption>
+The cover of the survey I mailed to each resident in my sample.
+</figcaption>
+</center>
 </div>
 
 

@@ -90,8 +90,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +113,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -127,6 +132,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -181,10 +282,7 @@ $(document).ready(function () {
   <a href="project.html">Project Details</a>
 </li>
 <li>
-  <a href="08_results.html">2008 Results</a>
-</li>
-<li>
-  <a href="18_update.html">2018 Progress</a>
+  <a href="findings.html">Findings</a>
 </li>
 <li>
   <a href="about.html">About Me</a>
@@ -206,18 +304,70 @@ $(document).ready(function () {
 </div>
 
 
-<p>Hello! My name is Megan Wheeler and I am a third year PhD student at Arizona State University in the <a href="https://halllab.asu.edu/">Hall Lab</a>, which has a broad focus on the ecology of native and managed ecosystems.</p>
-<p><img src="images/me_gc.jpg" width="350px"></p>
+<p>Contact me: <a href="mailto:mmwheele@asu.edu">mmwheele@asu.edu</a></p>
+<p>On Twitter: @<a href="https://twitter.com/megmwheeler">megmwheeler</a></p>
+<p><br></p>
+<p>Hello! My name is Megan Wheeler and I am a fourth year PhD student at Arizona State University in the <a href="https://halllab.asu.edu/">Hall Lab</a>, which has a broad focus on the ecology of native and managed ecosystems.</p>
+<p><img src="images/me_desert.jpg" width="350px"></p>
 <p>I am interested in how the decisions people make affect ecological outcomes, and for my dissertation work I am focusing on how urban and urban-influenced plant communities change over time. I find urban ecosystems especially interesting because they are where most people now live and work, they have disproportionately large impacts on Earth’s ecology and biogeochemistry, and they are ideal places to understand how people interact with and manage ecosystems.</p>
 <p><img src="images/phx_aerial.jpg" width="450px"></p>
-<p>Most of the time, I work with existing datasets, which are often larger or cover longer time periods than what I could collect myself. Some of my current projects use data from the <a href="https://sustainability.asu.edu/caplter/">Central Arizona Long Term Ecological Research project</a>, an NSF-funded project focused on understanding long term ecological trends in the Phoenix metropolitan area. While most of my work is done in front of a computer, I do get out into the desert once in a while!</p>
-<p><img src="images/me_sme_cndep.jpg" width="350px"> <img src="images/me_cholla_dbh.JPG" width="350px"></p>
-<p>Currently, I’m preparing for summer field work identifying plant species in front yards around Phoenix for my Residential Yard Dynamics project, which will be part of my dissertation work. This has entailed lots of time browsing the Home Depot nursery department to learn common landscaping plants.</p>
-<p><img src="images/hd_shrub.jpg" width="350px"> <img src="images/hd_euryops.jpg" width="350px"></p>
-<p>I’m also taking a class to learn to identify common Arizona plant families.</p>
-<p><img src="images/helianthus.jpg" width="350px"></p>
-<p>Contact me at <a href="mailto:mmwheele@asu.edu">mmwheele@asu.edu</a>.</p>
-<p>Follow me on Twitter <span class="citation">@megmwheeler</span></p>
+<p>Most of the time, I work with existing datasets, which are often larger or cover longer time periods than what I could collect myself. Some of my current projects use data from the <a href="https://sustainability.asu.edu/caplter/">Central Arizona Long Term Ecological Research project</a>, an NSF-funded project focused on understanding long term ecological trends in the Phoenix metropolitan area. As part of this work, I am investigating how water and nutrient availability affect annual plant communities (wildflowers!) in the Sonoran Desert.</p>
+<p><img src="images/me_sme_cndep.jpg" width="350px"> <img src="images/phacelia.jpg" width="290px"></p>
+<p>Before coming to ASU, I began work with an NSF-funded MacroSystems Biology project, <a href="http://ecologicalhomogenization.com/">Ecological Homogenization of Urban America</a>. As part of this work I studied the <a href="https://www.sciencedirect.com/science/article/pii/S0169204617301081">composition of residential lawns across the US to test the urban homogenization hypothesis</a>, and found that lawn species composition is quite similar across the country, and that spontaneous species (those that grow on their own rather than being planted) were actually more similar than were planted turfgrass species. I’ve continued to work with this group as a graduate student, comparing residential yards of different types in Phoenix and across the country.</p>
+<p>At ASU, I also work with the <a href="https://sustainability.asu.edu/dcdc/">Decision Center for a Desert City</a> on a project seeking to understand changes in Phoenix residential landscaping over time, and the implications these changes have for urban water use. Outdoor landscape irrigation is a very large component of overall residential water use, and so understanding why people choose to have or remove water-intensive landscaping has applications in water conservation and policy planning.</p>
+<hr />
+<div id="publications-and-presentations" class="section level1">
+<h1>Publications and Presentations</h1>
+<div id="section" class="section level3">
+<h3>2019</h3>
+<ul>
+<li>Bergman, D.N., <strong>Wheeler, M.M.</strong>, K.L. Larson, and S.J. Hall. “Do Attitudes Towards Native Flora Predict Landscaping Choices in Privately Managed Urban Landscapes?” Poster presented at the Central Arizona-Phoenix LTER All Scientists Meeting, Tempe, AZ.</li>
+<li>Fleeger, M., K.L. Larson, <strong>Wheeler, M.M.</strong>, R. Andrade, and S.J. Hall. “Attitudes toward Pollinators in Residential Landscapes of Metropolitan Phoenix, Arizona.” Poster presented at the Central Arizona-Phoenix LTER All Scientists Meeting, Tempe, AZ.</li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>2018</h3>
+<ul>
+<li>D. Locke, M. Avolio, T.L.E. Trammell, R. Roy Chowdhury, J. M. Grove, J. Rogan, D.G. Martin, N. Bettez, J. Cavender-Bares, P.M. Groffman, S.J. Hall, J.B. Heffernan, S.E. Hobbie, K.L. Larson, J.L. Morse, C. Neill, K.C. Nelson, L.A. Ogden, J. O’Neil-Dunne, D.E. Pataki, W.D. Pearse, C. Polsky, and <strong>M.M. Wheeler</strong>. A multi-city comparison of front and backyard differences in plant species diversity and nitrogen cycling in residential landscapes. Landscape and Urban Planning 178:102-111. <a href="https://www.sciencedirect.com/science/article/pii/S0169204618304353">Link to article</a></li>
+<li><strong>Wheeler, M.M.</strong>, K.L. Larson, R. Andrade, and S.J. Hall. “Landscape change and the adoption of water-conserving desert landscapes in Phoenix residential yards.” Poster presented at the ASU Institute for Social Science Research Fall 2018 Poster Competition, Tempe, AZ.</li>
+<li><strong>Wheeler, M.M.</strong> and S.R. Earl. “Using mobile apps for easy, consistent cross-site or long-term data collection.” Poster presented at the LTER All Scientists’ Meeting, Pacific Grove, CA.</li>
+<li><strong>Wheeler, M.M.</strong>, K.L. Larson, E.M. Cook, and S.J. Hall. “Land managers drive plant community dynamics: A case study of change over time in Phoenix residential neighborhoods.” Seminar presented at the Ecological Society of America Meeting, New Orleans, LA.</li>
+<li><strong>Wheeler, M.M.</strong>, S.L. Collins, N.B. Grimm, C. Clark, R.A. Sponseller, E.M. Cook, and S.J. Hall. “Global change in the desert: Effects of increased nitrogen on diverse annual plant communities.” Poster presented at the Central Arizona-Phoenix LTER All Scientists Meeting, Tempe, AZ.</li>
+<li>Ribiero, C., <strong>M.M. Wheeler</strong>, L. Steger, and S.J. Hall. “Shrubs alter patterns of inorganic nitrogen availability in native desert parks across metropolitan Phoenix.” Poster presented at the Central Arizona-Phoenix LTER All Scientists</li>
+<li>Beauclaire Reyes, C., A. Bailey, L. Steger, <strong>M.M. Wheeler</strong>, and S.J. Hall. “Plant species diversity and community composition of alternative yards in Phoenix, AZ.” Poster presented at the Central Arizona-Phoenix LTER All Scientists Meeting, Tempe, AZ.</li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3>2017</h3>
+<ul>
+<li><strong>Wheeler, M.M.</strong>, C. Neill, P.M. Groffman, M. Avolio, N. Bettez, J. Cavender-Bares, R.R. Chowdhury, L. Darling, M. Grove, S.J. Hall, J.B. Heffernan, S.E. Hobbie, K.L. Larson, J.L. Morse, K.C. Nelson, L.A. Ogden, J. O’Neil-Dunne, D.E. Pataki, C. Polsky, M. Steele, and T.L.E. Trammell. Continental-scale homogenization of residential lawn plant communities. Landscape and Urban Planning 165: 54-63. <a href="https://www.sciencedirect.com/science/article/pii/S0169204617301081">Link to article</a></li>
+<li><strong>Wheeler, M.M.</strong>, S.L. Collins, N.B. Grimm, C. Clark, R.A. Sponseller, and S.J. Hall. “Global change in the desert: Effects of increased nitrogen on diverse annual plant communities.” Poster presented at the Ecological Society of America Meeting, Portland, OR.</li>
+<li><strong>Wheeler, M.M.</strong>, E.R. Vivoni, and S.J. Hall. “Evaluation of a soil water model to improve outdoor water use recommendations in an arid city.” Poster presented at the Central Arizona-Phoenix LTER All Scientists Meeting, Tempe, AZ.</li>
+</ul>
+</div>
+<div id="section-3" class="section level3">
+<h3>2016</h3>
+<ul>
+<li><strong>Wheeler, M.M.</strong>, M.M. Dipman, T.A. Adams, A.V. Ruina, C.R. Robins, W.M. Meyer III. Carbon and nitrogen storage in California sage scrub and non-native grassland habitats. Journal of Arid Environments 129: 119-125. <a href="https://www.sciencedirect.com/science/article/pii/S0140196316300234">Link to article</a></li>
+<li><strong>Wheeler, M.M.</strong>, J. Learned, H. Heavenrich, and S.J. Hall. “Regional Patterns and Homogenization of Residential Yard Soil Moisture in US Cities.” Poster presented at the INTERFACE Frontiers in Terrestrial Climate Feedbacks Workshop, St. Pete’s Beach, FL.</li>
+</ul>
+</div>
+<div id="section-4" class="section level3">
+<h3>2015</h3>
+<ul>
+<li><strong>Wheeler, M.M.</strong>, C. Neill, E. Loucks, A. Weiler, B. Von Holle, M. Pelikan, and T. Chase. Vegetation removal and seed addition contribute to coastal sandplain grassland establishment on former agricultural fields. Restoration Ecology 23: 539-547. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.12253">Link to article</a></li>
+<li>Neill, C., <strong>M.M. Wheeler</strong>, E. Loucks, A. Weiler, B. Von Holle, M. Pelikan, and T. Chase. Influence of soil properties on coastal sandplain grassland establishment on former agricultural fields. Restoration Ecology 23: 531-538. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.12196">Link to article</a></li>
+<li><strong>Wheeler, M.M.</strong>, C. Neill, P.M. Groffman, M. Grove, N. Bettez, J. Cavender-Bares, J.B. Heffernan, S.J. Hall, S.E. Hobbie, K.L. Larson, J.L. Morse, K.C. Nelson, L.A. Ogden, J. O’Neil-Dunne, D.E. Pataki, C. Polsky, R.R. Chowdhury, T. Trammell, M. Steele, W.D. Pearse, L. Darling, and M. Avolio. “Continental-scale Homogenization of US Urban Lawn Vegetation.” Seminar presented at the Ecological Society of America Annual Meeting, Baltimore, MD.</li>
+</ul>
+</div>
+<div id="section-5" class="section level3">
+<h3>2014</h3>
+<ul>
+<li>Meyer III, W.M., W.J. Staubus, <strong>M.M. Wheeler</strong>, M.M. Dipman, and D.M. Spear. “Conservation Importance of Native Coastal Sage Scrub and Non-native Grassland Habitat Patches in Urban/Suburban Los Angeles County, California, USA.” Seminar presented at the Ecological Society of America Annual Meeting, Sacramento, CA.</li>
+<li><strong>Wheeler, M.M.</strong> and C. Neill. “Effects of Vegetation Removal, Seed Limitation and Soil Chemistry on Sandplain Grassland Creation on Former Agricultural Fields.” Seminar presented at the Society for Ecological Restoration New England Chapter Regional Conference, Amherst, MA.</li>
+</ul>
+</div>
+</div>
 
 
 
